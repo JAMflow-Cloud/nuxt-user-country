@@ -5,6 +5,11 @@
   "repository": "your-org/my-module",
   "license": "AGPL-3.0",
   "type": "module",
+  "build": {
+    "externals": [
+      "defu"
+    ]
+  },
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
@@ -31,17 +36,17 @@
   "dependencies": {
     "@nuxt/kit": "^3.14.159"  },
   "devDependencies": {
-    "@nuxt/devtools": "^1.6.0",
-    "@nuxt/eslint-config": "^0.6.1",
+    "@nuxt/devtools": "^1.6.3",
+    "@nuxt/eslint-config": "^0.7.2",
     "@nuxt/module-builder": "^0.8.4",
-    "@nuxt/schema": "^3.14.159",
-    "@nuxt/test-utils": "^3.14.4",
+    "@nuxt/schema": "^3.14.1592",
+    "@nuxt/test-utils": "^3.15.1",
     "@types/node": "latest",
     "changelogen": "^0.5.7",
-    "eslint": "^9.14.0",
-    "nuxt": "^3.14.159",
-    "typescript": "latest",
-    "vitest": "^2.1.5",
+    "eslint": "^9.16.0",
+    "nuxt": "^3.14.1592",
+    "typescript": "5.6.2",
+    "vitest": "^2.1.8",
     "vue-tsc": "^2.1.10"
   }
 }
