@@ -3,7 +3,7 @@ Get your module up and running quickly.
 
 Find and replace all on all files (CMD+SHIFT+F):
 - Name: User Country Module
-- Package name: user-country-module
+- Package name: nuxt-user-country
 - Description: A Nuxt module to fetch and display user country information
 -->
 
@@ -28,7 +28,7 @@ A Nuxt module to fetch and display user country information.
 Install the module to your Nuxt application with one command:
 
 ```bash
-npx nuxi module add user-country-module
+npx nuxi module add nuxt-user-country
 ```
 
 That's it! You can now use the User Country Module in your Nuxt app ✨
